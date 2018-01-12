@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Martin Schnabel <martin@webvariants.de>
 
-ARG RANCHER_CLI_VERSION=v0.6.4
+ARG RANCHER_CLI_VERSION=v0.6.7
 
 RUN apk add --quiet --no-cache ca-certificates && \
 	apk add --quiet --no-cache --virtual build-dependencies curl && \
